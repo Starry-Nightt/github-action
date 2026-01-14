@@ -1,4 +1,8 @@
 name: Working with directories
+on: 
+  push:
+    branches:
+     - test
 jobs:
   display-wd-info:
     runs-on: ubuntu-latest
