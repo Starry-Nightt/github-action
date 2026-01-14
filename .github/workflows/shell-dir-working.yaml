@@ -1,5 +1,4 @@
 name: Working with directories
-on: [push]
 jobs:
   display-wd-info:
     runs-on: ubuntu-latest
