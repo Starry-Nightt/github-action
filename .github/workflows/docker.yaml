@@ -10,7 +10,7 @@ jobs:
         API_URL: some-url.com
       ports:
         - 80
-    step:
+    steps:
       - name: Log node & OS versions
         run: |
           node -v
